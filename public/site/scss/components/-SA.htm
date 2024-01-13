@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /html/iori/demos/assets/scss/components/</title></head>
+<body><div class="content"><h1>Index of /html/iori/demos/assets/scss/components/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname"><a class="name" href="?NA"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number" aria-sort="ascending"><a href="?SD"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/html/iori/demos/assets/scss/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="_tabs.scss"><a href="/html/iori/demos/assets/scss/components/_tabs.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_tabs.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="0">      0k</td></tr>
+<tr><td data-sort="_form.scss"><a href="/html/iori/demos/assets/scss/components/_form.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_form.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="1245">      2k</td></tr>
+<tr><td data-sort="_nouislider.scss"><a href="/html/iori/demos/assets/scss/components/_noUISlider.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_noUISlider.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="3232">      4k</td></tr>
+<tr><td data-sort="_slider.scss"><a href="/html/iori/demos/assets/scss/components/_slider.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_slider.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="3458">      4k</td></tr>
+<tr><td data-sort="_banners.scss"><a href="/html/iori/demos/assets/scss/components/_banners.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_banners.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="4430">      5k</td></tr>
+<tr><td data-sort="_misc.scss"><a href="/html/iori/demos/assets/scss/components/_misc.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_misc.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="5360">      6k</td></tr>
+<tr><td data-sort="_buttons.scss"><a href="/html/iori/demos/assets/scss/components/_buttons.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_buttons.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="8359">      9k</td></tr>
+<tr><td data-sort="_card.scss"><a href="/html/iori/demos/assets/scss/components/_card.scss"><img class="icon" src="/_autoindex/assets/icons/file.svg" alt="File">_card.scss</a></td><td data-sort="1679091172">2023-03-17 22:12</td><td data-sort="18107">     18k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at wp.alithemes.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
